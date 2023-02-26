@@ -16,10 +16,10 @@ ORANGE = 255, 111, 0
 main_surface = pygame.display.set_mode(screen)
 
 
-IMGS_PATH = 'goos-animation'
+IMGS_PATH = "./goos-animation"
 
 player_imgs = [pygame.image.load(
-    IMGS_PATH + '/' + file).convert_alpha() for file in listdir(IMGS_PATH)]
+    IMGS_PATH + '\\' + file).convert_alpha() for file in listdir(IMGS_PATH)]
 player = player_imgs[0]
 player_rect = player.get_rect()
 player_speed = 5
