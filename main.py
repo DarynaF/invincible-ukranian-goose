@@ -9,7 +9,7 @@ pygame.init()
 
 FPS = pygame.time.Clock()
 
-screen = width, heigth = 800, 600
+screen = width, heigth = 1000, 700
 
 ORANGE = 255, 111, 0
 
